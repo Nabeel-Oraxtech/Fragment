@@ -7,12 +7,29 @@
     android:orientation="vertical"
     android:background="@color/Fragment1">
 
+
+    <EditText
+        android:id="@+id/etFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter text"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_margin="30dp"/>
+    <Button
+        android:id="@+id/btnFragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Show Text"
+        android:textSize="15sp"/>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Fragment 1"
         android:textSize="40dp"
         android:textColor="@color/black"
-        android:gravity="center"/>
-
+        android:gravity="center"
+        android:layout_marginTop="300sp"/>
 </LinearLayout>
